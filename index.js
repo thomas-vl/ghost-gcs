@@ -37,7 +37,7 @@ class GStore extends StorageBase {
                 }
                 return this.bucket.upload(image.path, opts)
             }).then(response =>{
-                var url = 'http://storage.googleapis.com/'+
+                var url = 'https://storage.googleapis.com/'+
                     response[0].metadata.bucket+'/'+
                     response[0].name
                 resolve(url)

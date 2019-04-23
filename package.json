@@ -1,6 +1,6 @@
 {
   "name": "ghost-gcs",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "dependencies": {
     "@google-cloud/storage": "^2.5.0",
     "ghost-storage-base": "0.0.3"
