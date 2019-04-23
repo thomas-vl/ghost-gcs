@@ -1,7 +1,30 @@
 {
-    "dependencies": {
-      "@google-cloud/storage": "^2.5.0",
-      "ghost-storage-base": "0.0.3"
-    }
-  }
-  
+  "name": "ghost-gcs",
+  "version": "0.0.2",
+  "dependencies": {
+    "@google-cloud/storage": "^2.5.0",
+    "ghost-storage-base": "0.0.3"
+  },
+  "description": "Ghost.org Google Cloud Storage adapter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomas-vl/ghost-gcs.git"
+  },
+  "keywords": [
+    "Ghost.org",
+    "Google",
+    "Cloud",
+    "Storage",
+    "adapter"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomas-vl/ghost-gcs/issues"
+  },
+  "homepage": "https://github.com/thomas-vl/ghost-gcs#readme"
+}
